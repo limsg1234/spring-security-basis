@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/codef?autoReconnect=true&connectionAttributes=program_name:localtest&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password:
